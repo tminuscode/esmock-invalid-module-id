@@ -1,0 +1,22 @@
+{
+  "name": "b",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test.ts"
+  },
+  "dependencies": {
+    "a": "^0.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "@types/mocha": "^10.0.1",
+    "mocha": "^10.2.0",
+    "esmock": "^2.3.8",
+    "ts-node": "^10.9.1"
+  },
+  "mocha": {
+    "extension": ["ts"],
+    "loader": ["ts-node/esm", "esmock"]
+  }
+}

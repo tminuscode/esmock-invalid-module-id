@@ -1,0 +1,8 @@
+{
+  "name": "esmock-repro",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
+}
