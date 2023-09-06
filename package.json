@@ -1,6 +1,9 @@
 {
   "name": "esmock-repro",
   "private": true,
+  "scripts": {
+    "test": "npm --prefix packages/b test"
+  },
   "workspaces": ["packages/*"],
   "dependencies": {
     "typescript": "^5.2.2"
