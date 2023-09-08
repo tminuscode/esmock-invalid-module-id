@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "test": "mocha test.ts"
+    "test": "mocha test.js"
   },
   "dependencies": {
     "a": "^0.0.0"
@@ -16,7 +16,6 @@
     "ts-node": "^10.9.1"
   },
   "mocha": {
-    "extension": ["ts"],
-    "loader": ["ts-node/esm", "esmock"]
+    "loader": "esmock"
   }
 }
